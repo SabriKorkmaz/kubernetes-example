@@ -6,7 +6,5 @@ services:
     depends_on:
       - db
     build: ./
-    links:
-      - db
     ports:
       - "5555:5555"
