@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: kubernetes-example
-        image: sbrkrkmz/kubernetes-example
+        image: sbrkrkmz/kubernetes-example:latest
         ports:
         - containerPort: 5555
         resources:
