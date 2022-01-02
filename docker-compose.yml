@@ -1,0 +1,12 @@
+version: "2"
+services:
+  app:
+    restart: always
+    image: sbrkrkmz/project-x-api
+    depends_on:
+      - db
+    build: ./
+    links:
+      - db
+    ports:
+      - "5555:5555"
